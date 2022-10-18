@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><MRMessageSet id="OBBC0O4002001" name="MwWsdl" parser="XMLNSC">
+  <MRMsgCollection href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd" prefix="" targetNamespace="">
+    <message href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/GetCustomerMwRequest;XSDElementDeclaration=3$MRMessage" name="GetCustomerMwRequest"/>
+    <message href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/GetCustomerMwResponse;XSDElementDeclaration=4$MRMessage" name="GetCustomerMwResponse"/>
+    <message href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/FaultMw;XSDElementDeclaration=5$MRMessage" name="FaultMw"/>
+    <element href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/id;XSDElementDeclaration" name="id" type="mset://MwWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/name;XSDElementDeclaration=1" name="name" type="mset://MwWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/fualtData;XSDElementDeclaration=2" name="fualtData" type="mset://MwWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/GetCustomerMwRequest;XSDElementDeclaration=3" name="GetCustomerMwRequest" type="mset://MwWsdl#/-/complexType{}GetCustomerMwRequest"/>
+    <element href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/GetCustomerMwResponse;XSDElementDeclaration=4" name="GetCustomerMwResponse" type="mset://MwWsdl#/-/complexType{}GetCustomerMwResponse"/>
+    <element href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/FaultMw;XSDElementDeclaration=5" name="FaultMw" type="mset://MwWsdl#/-/complexType{}FaultMw"/>
+    <complexType baseType="mset://MwWsdl#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/GetCustomerMwRequest;XSDComplexTypeDefinition" name="GetCustomerMwRequest"/>
+    <complexType baseType="mset://MwWsdl#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/GetCustomerMwResponse;XSDComplexTypeDefinition=1" name="GetCustomerMwResponse"/>
+    <complexType baseType="mset://MwWsdl#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/MwWsdl/MwWsdl/MwWsdl.mxsd#/0/FaultMw;XSDComplexTypeDefinition=2" name="FaultMw"/>
+  </MRMsgCollection>
+</MRMessageSet>

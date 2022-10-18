@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><MRMessageSet id="OBP5T00002001" name="BackWsdl" parser="XMLNSC">
+  <MRMsgCollection href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd" prefix="" targetNamespace="">
+    <message href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/GetCustomerBackRequest;XSDElementDeclaration=4$MRMessage" name="GetCustomerBackRequest"/>
+    <message href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/GetCustomerBackResponse;XSDElementDeclaration=5$MRMessage" name="GetCustomerBackResponse"/>
+    <message href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/FaultBack;XSDElementDeclaration=6$MRMessage" name="FaultBack"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/id;XSDElementDeclaration" name="id" type="mset://BackWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/name;XSDElementDeclaration=1" name="name" type="mset://BackWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/status;XSDElementDeclaration=2" name="status" type="mset://BackWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/faultData;XSDElementDeclaration=3" name="faultData" type="mset://BackWsdl#/-/simpleType{http://www.w3.org/2001/XMLSchema}string"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/GetCustomerBackRequest;XSDElementDeclaration=4" name="GetCustomerBackRequest" type="mset://BackWsdl#/-/complexType{}GetCustomerBackRequest"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/GetCustomerBackResponse;XSDElementDeclaration=5" name="GetCustomerBackResponse" type="mset://BackWsdl#/-/complexType{}GetCustomerBackResponse"/>
+    <element href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/FaultBack;XSDElementDeclaration=6" name="FaultBack" type="mset://BackWsdl#/-/complexType{}FaultBack"/>
+    <complexType baseType="mset://BackWsdl#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/GetCustomerBackRequest;XSDComplexTypeDefinition" name="GetCustomerBackRequest"/>
+    <complexType baseType="mset://BackWsdl#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/GetCustomerBackResponse;XSDComplexTypeDefinition=1" name="GetCustomerBackResponse"/>
+    <complexType baseType="mset://BackWsdl#/-/complexType{http://www.w3.org/2001/XMLSchema}anyType" href="platform:/resource/BackWsdl/BackWsdl/BackWsdl.mxsd#/0/FaultBack;XSDComplexTypeDefinition=2" name="FaultBack"/>
+  </MRMsgCollection>
+</MRMessageSet>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="BackWsdl" targetNamespace="http://tempuri.org/BackWsdl" xmlns="http://tempuri.org/BackWsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://tempuri.org/BackWsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <generatedXSD location="BackWsdlService_InlineSchema1.xsd"/>
+        <binding hasEncoding="false" imported="true" name="BackWsdlSOAP_HTTP_Binding" originalBindingStyle="document"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+  <wsdl:types>
+    
+          <xsd:schema targetNamespace="http://tempuri.org/BackWsdl" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:mrm="http://tempuri.org/BackWsdl">
+<xsd:include schemaLocation="BackWsdlService_InlineSchema1.xsd"/>
+    </xsd:schema>
+    </wsdl:types>
+  <wsdl:message name="GetCustomerBack_in">
+    <wsdl:part element="GetCustomerBackRequest" name="GetCustomerBackRequest"/>
+  </wsdl:message>
+  <wsdl:message name="GetCustomerBack_out">
+    <wsdl:part element="GetCustomerBackResponse" name="GetCustomerBackResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCustomerBack_fault1">
+    <wsdl:part element="FaultBack" name="FaultBack"/>
+  </wsdl:message>
+  <wsdl:portType name="BackWsdlPortType">
+    <wsdl:operation name="GetCustomerBack">
+      <wsdl:input message="GetCustomerBack_in" name="GetCustomerBack_Input"/>
+      <wsdl:output message="GetCustomerBack_out" name="GetCustomerBack_Output"/>
+      <wsdl:fault message="GetCustomerBack_fault1" name="GetCustomerBack_Fault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BackWsdlSOAP_HTTP_Binding" type="BackWsdlPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCustomerBack">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetCustomerBack_Input">
+        <soap:body parts="GetCustomerBackRequest" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetCustomerBack_Output">
+        <soap:body parts="GetCustomerBackResponse" use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="GetCustomerBack_Fault">
+        <soap:fault name="GetCustomerBack_Fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BackWsdlSOAP_HTTP_Service">
+    <wsdl:port binding="BackWsdlSOAP_HTTP_Binding" name="BackWsdlSOAP_HTTP_Port">
+      <soap:address location="http://localhost:7800/BackWsdlSOAP_HTTP_Service"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

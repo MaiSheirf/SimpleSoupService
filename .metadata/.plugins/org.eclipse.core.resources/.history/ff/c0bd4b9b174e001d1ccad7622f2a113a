@@ -1,0 +1,10 @@
+
+
+Importing file: C:\Users\Administrator\IBM\IIBT10\task4\BackWsdl\BackWsdlService.wsdl
+
+The WSDL import will proceed with bindings BackWsdlSOAP_HTTP_Binding.
+Creating wsdl schema document for file:///C:/Users/Administrator/IBM/IIBT10/task4/BackWsdl/BackWsdlService.wsdl.
+Parsing wsdl binding {http://tempuri.org/BackWsdl}BackWsdlSOAP_HTTP_Binding.
+Parsing wsdl binding input GetCustomerBack.
+Parsing wsdl binding output GetCustomerBack.
+Parsing wsdl binding fault GetCustomerBack_Fault.

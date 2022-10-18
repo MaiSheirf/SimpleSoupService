@@ -1,0 +1,8 @@
+
+
+Importing file: C:\Users\Administrator\IBM\IIBT10\task4\MwWsdl\MwWsdlService.wsdl
+
+The WSDL import will proceed with bindings MwWsdlSOAP_HTTP_Binding.
+Creating wsdl schema document for file:///C:/Users/Administrator/IBM/IIBT10/task4/MwWsdl/MwWsdlService.wsdl.
+Parsing wsdl binding {http://tempuri.org/MwWsdl}MwWsdlSOAP_HTTP_Binding.
+Parsing wsdl binding input GetCustomerMw.

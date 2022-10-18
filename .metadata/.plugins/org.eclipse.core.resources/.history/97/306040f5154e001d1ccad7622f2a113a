@@ -1,0 +1,35 @@
+Summary of selections: WSDL files generation
+
+The selected message set:
+/MwWsdl/MwWsdl
+
+The generated WSDL files will go into:
+/MwWsdl
+
+The version of WSDL to be generated: 1.1
+The version of SOAP to be generated: 1.1
+
+The selected style for WSDL generation: document
+The WSDL Namespace: http://tempuri.org/MwWsdl
+
+The following operations will be created:
+GetCustomerMw (Request-Response)
+
+The following bindings are selected:
+SOAP over http.
+
+The following WSDL files will be generated:
+/MwWsdl/MwWsdlService.wsdl
+
+
+Creating new WSDL Service file '\MwWsdl\MwWsdlService.wsdl'
+Setting wsdl definition name for 'MwWsdlService.wsdl': MwWsdl
+Setting wsdl definition targetNamespace for 'MwWsdlService.wsdl': http://tempuri.org/MwWsdl
+Adding namespace: xmlns for 'MwWsdlService.wsdl':soap=http://schemas.xmlsoap.org/wsdl/soap/
+Adding namespace: xmlns for 'MwWsdlService.wsdl':xsd=http://www.w3.org/2001/XMLSchema
+Adding namespace: xmlns for 'MwWsdlService.wsdl':wsdl=http://schemas.xmlsoap.org/wsdl/
+Creating new WSDL Interface file '\MwWsdl\MwWsdlService.wsdl'
+Creating portType for WSDL Interface: MwWsdlPortType
+Creating portType operation 'GetCustomerMw'
+Creating message 'GetCustomerMw_in'
+Creating message 'GetCustomerMw_out'

@@ -1,0 +1,55 @@
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666077700029
+2871<<Administration Result<<2022-10-18 09:22:01.309 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666078395570
+2871<<Administration Result<<2022-10-18 09:33:35.463 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666079193262
+2871<<Administration Result<<2022-10-18 09:46:57.112 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666080365968
+2871<<Administration Result<<2022-10-18 10:06:24.878 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666081439587
+2871<<Administration Result<<2022-10-18 10:24:19.673 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666082389673
+2871<<Administration Result<<2022-10-18 10:40:08.697 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666082580226
+2871<<Administration Result<<2022-10-18 10:43:19.400 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666082960581
+2871<<Administration Result<<2022-10-18 10:49:40.869 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666083306152
+2871<<Administration Result<<2022-10-18 10:55:24.066 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>2>>1666084177538
+2087<<Runtime Response<<2022-10-18 11:09:51.640 EET<<TESTNODE_Administrator<<d6b8e672-eb8f-45d1-824b-7cfdf798568f
+4041<<Runtime Response<<2022-10-18 11:09:51.640 EET<<default<<25e83b7c-8ea3-423d-ae1d-f2a90862e542
+2432<<Runtime Response<<2022-10-18 11:09:51.640 EET<<.GetMwResponse_MW_RESPONSE.Main<<5.82<<BlOB.byteArray<<mw, be, Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList
+2871<<Administration Result<<2022-10-18 11:09:51.641 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<FAILED
+MyTaskSoapService>>TESTNODE_Administrator>>default>>2>>1666084233895
+2087<<Runtime Response<<2022-10-18 11:10:44.389 EET<<TESTNODE_Administrator<<d6b8e672-eb8f-45d1-824b-7cfdf798568f
+4041<<Runtime Response<<2022-10-18 11:10:44.389 EET<<default<<25e83b7c-8ea3-423d-ae1d-f2a90862e542
+2432<<Runtime Response<<2022-10-18 11:10:44.389 EET<<.GetMwResponse_MW_RESPONSE.Main<<5.82<<BlOB.byteArray<<mw, be, Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList
+2871<<Administration Result<<2022-10-18 11:10:44.389 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<FAILED
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666084281675
+2871<<Administration Result<<2022-10-18 11:11:40.501 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>2>>1666084473749
+2087<<Runtime Response<<2022-10-18 11:14:43.533 EET<<TESTNODE_Administrator<<d6b8e672-eb8f-45d1-824b-7cfdf798568f
+4041<<Runtime Response<<2022-10-18 11:14:43.533 EET<<default<<25e83b7c-8ea3-423d-ae1d-f2a90862e542
+2432<<Runtime Response<<2022-10-18 11:14:43.534 EET<<.GetMwResponse_MW_RESPONSE.Main<<5.82<<BLOB.String<<mw, be, Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList
+2871<<Administration Result<<2022-10-18 11:14:43.534 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<FAILED
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666085765966
+2871<<Administration Result<<2022-10-18 11:36:13.003 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666086071268
+2871<<Administration Result<<2022-10-18 11:41:19.997 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666086362449
+2871<<Administration Result<<2022-10-18 11:46:09.479 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666086644972
+2871<<Administration Result<<2022-10-18 11:50:51.972 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666092507607
+2871<<Administration Result<<2022-10-18 13:28:37.150 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666099386962
+2871<<Administration Result<<2022-10-18 15:23:19.011 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666099499345
+2871<<Administration Result<<2022-10-18 15:25:05.322 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666099592413
+2871<<Administration Result<<2022-10-18 15:26:37.818 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666099698958
+2871<<Administration Result<<2022-10-18 15:28:26.040 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE
+MyTaskSoapService>>TESTNODE_Administrator>>default>>0>>1666099795520
+2871<<Administration Result<<2022-10-18 15:30:02.791 EET<<DESKTOP-LHU02DA\Administrator<<deploy<<C:/Users/Administrator/IBM/IIBT10/task4/GeneratedBarFiles/MyTaskSoapServiceproject.generated.bar<<BAR<<default<<ExecutionGroup<<COMPLETE

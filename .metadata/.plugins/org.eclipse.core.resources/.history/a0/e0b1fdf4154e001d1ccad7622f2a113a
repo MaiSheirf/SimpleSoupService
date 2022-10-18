@@ -1,0 +1,25 @@
+Summary of selections: WSDL files generation
+
+The selected message set:
+/MwWsdl/MwWsdl
+
+The generated WSDL files will go into:
+/MwWsdl
+
+The version of WSDL to be generated: 1.1
+The version of SOAP to be generated: 1.1
+
+The selected style for WSDL generation: document
+The WSDL Namespace: http://tempuri.org/MwWsdl
+
+The following operations will be created:
+GetCustomerMw (Request-Response)
+
+The following bindings are selected:
+SOAP over http.
+
+The following WSDL files will be generated:
+/MwWsdl/MwWsdlService.wsdl
+
+
+Creating new WSDL Service file '\MwWsdl\MwWsdlService.wsdl'

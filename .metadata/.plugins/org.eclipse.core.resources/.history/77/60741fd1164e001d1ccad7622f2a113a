@@ -1,0 +1,26 @@
+Summary of selections: WSDL files generation
+
+The selected message set:
+/BackWsdl/BackWsdl
+
+The generated WSDL files will go into:
+/BackWsdl
+
+The version of WSDL to be generated: 1.1
+The version of SOAP to be generated: 1.1
+
+The selected style for WSDL generation: document
+The WSDL Namespace: http://tempuri.org/BackWsdl
+
+The following operations will be created:
+GetCustomerBack (Request-Response)
+
+The following bindings are selected:
+SOAP over http.
+
+The following WSDL files will be generated:
+/BackWsdl/BackWsdlService.wsdl
+
+
+Creating new WSDL Service file '\BackWsdl\BackWsdlService.wsdl'
+Setting wsdl definition name for 'BackWsdlService.wsdl': BackWsdl

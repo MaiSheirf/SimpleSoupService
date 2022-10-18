@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666005604156_1" label="[MyTaskSoapService]" name="[MyTaskSoapService]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyTaskSoapService" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666009626315_2" label="[MwLib]" name="[MwLib]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MwLib" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666009861427_3" label="[BackLib]" name="[BackLib]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BackLib" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666089087643_4" label="[ExceptionHandler_sharedLib]" name="[ExceptionHandler_sharedLib]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ExceptionHandler_sharedLib" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666005527129_0" label="Window Working Set" name="Aggregate for window 1666005527128"/>
+</workingSetManager>

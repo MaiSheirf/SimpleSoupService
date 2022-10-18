@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org/MwWsdl" xmlns="http://tempuri.org/MwWsdl" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:mrm="http://tempuri.org/MwWsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://tempuri.org/MwWsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+      <xsd:complexType name="GetCustomerMwRequest">
+        <xsd:sequence>
+          <xsd:element ref="mrm:id"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="GetCustomerMwResponse">
+        <xsd:sequence>
+          <xsd:element ref="mrm:id"/>
+          <xsd:element ref="mrm:name"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="id" type="xsd:string"/>
+      <xsd:element name="name" type="xsd:string"/>
+      <xsd:element name="fualtData" type="xsd:string"/>
+      <xsd:complexType name="FaultMw">
+        <xsd:sequence>
+          <xsd:element ref="mrm:fualtData"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element ibmSchExtn:docRoot="true" name="GetCustomerMwRequest" type="mrm:GetCustomerMwRequest"/>
+      <xsd:element ibmSchExtn:docRoot="true" name="GetCustomerMwResponse" type="mrm:GetCustomerMwResponse"/>
+      <xsd:element ibmSchExtn:docRoot="true" name="FaultMw" type="mrm:FaultMw"/>
+    </xsd:schema>

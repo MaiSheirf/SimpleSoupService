@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="GetMwCustomer">
+    <xsd:sequence>
+      <xsd:element ref="id"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="AddMwCustomer">
+    <xsd:sequence>
+      <xsd:element ref="id"/>
+      <xsd:element ref="name"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="id" type="xsd:int"/>
+  <xsd:element name="name" type="xsd:string"/>
+  <xsd:complexType name="FaultMw">
+    <xsd:sequence>
+      <xsd:element ref="faultData"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="faultData" type="xsd:string"/>
+  <xsd:element name="GetMwCustomer" type="GetMwCustomer">
+    <xsd:annotation>
+      <xsd:appinfo source="WMQI_APPINFO">
+        <MRMessage messageDefinition="/0/GetMwCustomer;XSDElementDeclaration=3$MRObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+  </xsd:element>
+  <xsd:element name="AddMwCustomer" type="AddMwCustomer">
+    <xsd:annotation>
+      <xsd:appinfo source="WMQI_APPINFO">
+        <MRMessage messageDefinition="/0/AddMwCustomer;XSDElementDeclaration=4$MRObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+  </xsd:element>
+  <xsd:element name="FaultMw" type="FaultMw">
+    <xsd:annotation>
+      <xsd:appinfo source="WMQI_APPINFO">
+        <MRMessage messageDefinition="/0/FaultMw;XSDElementDeclaration=5$MRObject"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+  </xsd:element>
+</xsd:schema>

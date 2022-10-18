@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="MwWsdl" targetNamespace="http://tempuri.org/MwWsdl" xmlns="http://tempuri.org/MwWsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://tempuri.org/MwWsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>
+    <wsdl:appinfo source="WMQI_APPINFO">
+      <MRWSDLAppInfo imported="true">
+        <generatedXSD location="MwWsdlService_InlineSchema1.xsd"/>
+        <binding hasEncoding="false" imported="true" name="MwWsdlSOAP_HTTP_Binding" originalBindingStyle="document"/>
+      </MRWSDLAppInfo>
+    </wsdl:appinfo>
+  </wsdl:documentation>
+  <wsdl:types>
+    
+          <xsd:schema targetNamespace="http://tempuri.org/MwWsdl" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:mrm="http://tempuri.org/MwWsdl">
+<xsd:include schemaLocation="MwWsdlService_InlineSchema1.xsd"/>
+    </xsd:schema>
+    </wsdl:types>
+  <wsdl:message name="GetCustomerMw_in">
+    <wsdl:part element="GetCustomerMwRequest" name="GetCustomerMwRequest"/>
+  </wsdl:message>
+  <wsdl:message name="GetCustomerMw_out">
+    <wsdl:part element="GetCustomerMwResponse" name="GetCustomerMwResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetCustomerMw_fault1">
+    <wsdl:part element="FaultMw" name="FaultMw"/>
+  </wsdl:message>
+  <wsdl:portType name="MwWsdlPortType">
+    <wsdl:operation name="GetCustomerMw">
+      <wsdl:input message="GetCustomerMw_in" name="GetCustomerMw_Input"/>
+      <wsdl:output message="GetCustomerMw_out" name="GetCustomerMw_Output"/>
+      <wsdl:fault message="GetCustomerMw_fault1" name="GetCustomerMw_Fault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MwWsdlSOAP_HTTP_Binding" type="MwWsdlPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCustomerMw">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetCustomerMw_Input">
+        <soap:body parts="GetCustomerMwRequest" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetCustomerMw_Output">
+        <soap:body parts="GetCustomerMwResponse" use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="GetCustomerMw_Fault">
+        <soap:fault name="GetCustomerMw_Fault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MwWsdlSOAP_HTTP_Service">
+    <wsdl:port binding="MwWsdlSOAP_HTTP_Binding" name="MwWsdlSOAP_HTTP_Port">
+      <soap:address location="http://localhost:7800/MwWsdlSOAP_HTTP_Service"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
